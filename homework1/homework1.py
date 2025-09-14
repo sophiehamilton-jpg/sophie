@@ -214,4 +214,7 @@ print(f"Hello, my name is {name}")
 # nano: allows one to view and edit the contents of a file ex) nano datatypes.py
 # 2. ls does not display the hidden files within a directory
 # 3. hidden files begin with "."
-# 4. 
+# 4. -p: used with mkdir to create a parent directory
+# -l: used with ls; displays info about files
+# -h: used with ls; displays the size of files
+
