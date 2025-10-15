@@ -129,3 +129,17 @@ new_list = [3.2, 1, 76, 14]
 print(maximum_for(new_list))
 result = maximum_for(new_list) # maximum value of the list
 print(f"The result of maximum_for (6.2.1) with new_list = {3.2, 1, 76, 14} is {list}.")
+
+def sum_nested(my_list):
+    sum_total = 0
+    for i in my_list:
+        sum_total += sum(i)
+    return sum_total
+
+numbers = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(sum_nested(numbers))
