@@ -1,0 +1,19 @@
+Brainstorm for the Final Project
+
+1. Gravity between multiple planets, star motion in Earth's sky throughout history, double pendulum motion, rocket motion, circuit funcitons
+2. Resource 1: https://medium.com/@bharatambati/simulating-the-n-body-problem-a-way-to-understand-celestial-objects-f5de281f12cd
+    This article explains the equations needed to simulate gravitational interactions between multiple massive objects. When a system has more than
+    two bodies, it is difficult to predict paths of motion as Kepler's Law of Universal Gravitation cannot be used. The article provides an 
+    equation derived from Newton's second law which can be integrated to determine gravitational interactions.
+Resource 2: https://ckrao.wordpress.com/2021/12/31/calculating-the-locations-of-stars-in-the-sky/
+    This article outlines how to calculate the position of a star as a function of declination, time, and observer latitude. It provides a 
+    derivation for a fuction which states that vector A'P = cos(2(pi)t) A'B + sin(2(pi)t) A'C, in which A' is the location of the star, P is
+    your position on Earth, B is the star's highest location, and C is the position the star will be after a quarter of a day
+Resource 3: https://www.math.uwaterloo.ca/~sdalessi/EJP2023.pdf
+    This study from the University of Waterloo explains double pendulum motion. It describes techniques that can be used to model and understand
+    double pendulum kinematics. Double pendulums are chaotic systems with motion that is difficult to predict. The paper walks through derivations 
+    for kinematic equations which can be used to describe these pendulums.
+3. We could assign equations of star motion to functions in python and use layered image generation to create an animation given different
+    times in history and positions on earth.
+4. Dream idea: create a multi-century timelapse animation of the night sky. Realistic idea: create a function which outputs a star map given 
+    inputs of time and position.
